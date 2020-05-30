@@ -60,7 +60,7 @@ def error(bot, update, error):
   logger.warning('Update "%s" caused error "%s"', update, error)
 
 def main():
-  updater = Updater(token='TOKEN',use_context=True)
+  updater = Updater(token='4/0QEScsRsjfTYs2GOT5UTMuFDPqIc4WmvhL_ln5w43SRtEcDrIxsHQXo',use_context=True)
   dispatcher = updater.dispatcher
   updater.dispatcher.add_handler(CommandHandler('start', start))
   dispatcher.add_handler(MessageHandler(Filters.document,file_handler))
